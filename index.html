@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="">Please select your pizza size : </label>
+        S <input type="checkbox"  id="small">
+        M<input type="checkbox"  id="medium">
+        L<input type="checkbox"  id="large">
+    </div>
+    <div>
+        <label>add pepperoni</label>
+        Y<input type="checkbox" id="pyes">
+        N<input type="checkbox" id="pno">
+    </div>
+    <div>
+        <label>extra_cheese</label>
+        Y<input type="checkbox" id="cyes">
+        N<input type="checkbox" id="cno">
+    </div>
+    <input type="button" onclick="show()"value="submit">
+    <p id="s"></p>
+    <p id="p"></p>
+    <p id="c"></p>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
