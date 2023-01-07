@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+    <label>Enter your name:</label>
+    <input type="text" id="name">
     <div>
         <label for="">Please select your pizza size : </label>
         S <input type="checkbox"  id="small">
@@ -28,6 +30,17 @@
     <p id="p"></p>
     <p id="c"></p>
     <p id="result"></p>
+    <div>
+        <table id="table" border="1" width="400px" height="200px" cellspacing="0" cellpadding="1">
+            <tr ><th colspan="3">order details</th></tr>
+            <tr><th colspan="3" id="myname">Your name:</th></tr>
+            <tr>
+                <th>size</th>
+                <th>pepper</th>
+                <th>chess</th>
+            </tr>
+        </table>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
