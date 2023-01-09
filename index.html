@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="background-color:lightblue;">
+<nav class="navbar navbar-light" style="background-color: yellow;">
+    <a class="navbar-brand" href="#">
+        <p width="30"  height="30" class="d-inline-block align-top">🍕</p>
+      Pizza Corner
+    </a>
+  </nav>
+  <br>
+  <div class="menu">
+    <table border="1" cellpadding="2" cellspacing="0" class="menuform">
+        <tr>
+        <th>pizza size</th>
+        <th>price</th>
+        <th>pepperoni</th>
+        <th>extra_cheese</th>
+    </tr>
+    <tr>
+        <td>small</td>
+        <td>&#8377;60</td>
+        <td rowspan="3">&#8377;10</td>
+        <td rowspan="3">&#8377;20</td>
+    </tr>
+    <tr>
+        <td>medium</td>
+        <td>&#8377;110</td>
+    </tr>
+    <tr>
+        <td>large</td>
+        <td>&#8377;140</td>
+    </tr>
+    </table>
+  </div>
+    <div class="form1">
+    <label class="pizza" >Enter your name:</label>
+    <input type="text" class="inp"id="name">
+    <div class="part1">
+        <label class="pizza" for="">Please select your pizza size : </label>
+        Small <input type="checkbox"id="small">
+        Medium<input type="checkbox"  id="medium">
+        Large<input type="checkbox"  id="large">
+    </div>
+    <div>
+        <label class="pizza">add pepperoni</label>
+        Yes<input type="checkbox" id="pyes">
+        No<input type="checkbox" id="pno">
+    </div>
+    <div>
+        <label class="pizza">extra_cheese</label>
+        Yes<input type="checkbox" id="cyes">
+        No<input type="checkbox" id="cno">
+    </div>
+    <input type="button" class="btn btn-outline-warning"onclick="show()"value="submit">
+</div>
+    <div >
+        <table id="table" class="result" border="1" width="400px" height="200px" cellspacing="0" cellpadding="1">
+            <tr ><th class="order"colspan="5" cellspcing="3">Order Details</th></tr>
+            <tr></tr>
+            <tr >
+                <th>Your name</th>
+                <th>size</th>
+                <th>pepper</th>
+                <th>chess</th>
+                <th>Total</th>
+            </tr>
+        </table>
+    </div><br>
+    <hr >
+    <div class="copyright">copyright<span>&copy</span>2013,All rights reserved <p style="color: red;">@wolfathashik222002</p></div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
